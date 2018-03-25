@@ -1,0 +1,76 @@
+<html>
+<head>
+
+<title>Map Data Across the Globe</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="style.css">
+	  <script src="script.js"></script>
+
+</head>
+
+<body>
+
+<h1>Map Data Across the Globe</h1>
+  <h3>FreeCodeCamp</h3>
+<h5>Zoom in/out | Hover over the data point for additional data</h5>
+
+<div id="map"></div>
+
+<div id="tooltip">
+  Name: <span id="name" class="info"></span><br> 
+  Nametype: <span id="nametype" class="info"></span><br>
+  Fall: <span id="fall" class="info"></span><br> 
+  Mass: <span id="mass" class="info"></span><br>  
+  Recclass: <span id="reclass" class="info"></span><br>  
+  Reclat: <span id="reclat" class="info"></span><br> 
+  Reclong: <span id="reclong" class="info"></span><br> 
+  Year: <span id="year" class="info"></span>
+</div>
+
+
+
+
+<!-- Footer-->
+<div class="row text-center">
+			<div class="col-xs-12">
+				<div class="tableFooter">
+				  <!-- for footer -->
+      <div class="col-xs-6">
+      <h5><a href="http://www.eleftheriabatsou.com" target="_blank">Eleftheria</a> | <a href="https://codepen.io/EleftheriaBatsou" target="_blank">Projects</a> | <a href="https://www.youtube.com/channel/UCC-WwYv3DEW7Nkm_IP6VeQQ" target="_blank"> Coding videos </a></h5>
+      </div>
+      <!-- social media -->
+      <div class="col-xs-6 text-primary">
+        <a href="https://twitter.com/BatsouElef" target="_blank">
+     <img class="footerSvg"src="https://image.flaticon.com/icons/svg/60/60580.svg" 
+      style="text-align:center" alt="twitter"> 
+    </a>
+         <a href="https://github.com/EleftheriaBatsou" target="_blank">
+     <img class="footerSvg" src="https://image.flaticon.com/icons/svg/25/25657.svg" 
+      style="text-align:center" alt="github"> 
+    </a>
+        <a href="https://www.youtube.com/channel/UCC-WwYv3DEW7Nkm_IP6VeQQ" target="_blank">
+     <img class="footerSvg" src="https://image.flaticon.com/icons/svg/25/25312.svg" 
+       style="text-align:center" alt="youtube"> 
+    </a>
+      </div>
+    <!-- end footer -->
+				</div>
+			</div>
+		</div>
+<!-- end of Footer -->
+
+
+
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js'></script>
+<script src='//d3js.org/topojson.v1.js'></script>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
